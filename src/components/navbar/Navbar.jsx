@@ -18,11 +18,11 @@ const Navbar = () => {
 
   return (
     <div className="navbar h-20" style={navbarStyle}>
-        <div className='flex justify-between items-center px-20 py-6'>
+        <div className='flex justify-between items-center px-24 pr-16 py-6'>
             <div>
                 <div className="text-zinc-800 text-2xl font-bold font-['Inter']">aBit</div>
             </div>
-            <div className='flex items-center gap-4'>
+            <div className='items-center gap-4 flex'>
                 <Share />
                 <img className="w-7 h-7 cursor-pointer" src={wallet} />
                 <img className="w-7 h-7 cursor-pointer" src={bell} />
